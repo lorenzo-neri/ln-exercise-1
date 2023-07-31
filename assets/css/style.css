@@ -14,13 +14,42 @@ body{
     
 }
 
+/* #region hover */
+
+#end_prenot,
+#on_light{
+    transition: .5s;
+}
+
+#end_prenot{
+    background-color: ;
+}
+
+#on_light{
+    background-color: var(--ln-light);
+}
+#on_light:hover{
+    background-color: var(--ln-on_light);
+    scale: 1.2;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.399);
+}
+
+/* #endregion hover */
+
 /* #region colors */
 
+:root{
+    --ln-green_lime: #00de01;
+    --ln-light: #f7f9fb;
+    --ln-on_light: #ffff00;
+    --ln-end_prenot: #
+}
+
 .green_lime_text{
-    color: #00de01;
+    color: var(--ln-green_lime);
 }
 
 .green_lime_bg{
-    background-color: #00de01;
+    background-color: var(--ln-green_lime);
 }
 /* #endregion colors */
