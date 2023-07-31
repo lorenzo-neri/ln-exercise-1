@@ -2,8 +2,25 @@ body{
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1172px;
 }
 
 .row{
-    max-width: 1172px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
+
+/* #region colors */
+
+.green_lime_text{
+    color: #00de01;
+}
+
+.green_lime_bg{
+    background-color: #00de01;
+}
+/* #endregion colors */
