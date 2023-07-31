@@ -1,5 +1,9 @@
 body{
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+
+.row{
+    max-width: 1172px;
 }
