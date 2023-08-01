@@ -17,21 +17,33 @@ body{
 /* #region hover */
 
 #end_prenot,
-#on_light{
+#on_light,
+#start_prenot{
     transition: .5s;
-}
-
-#end_prenot{
-    background-color: ;
-}
-
-#on_light{
     background-color: var(--ln-light);
 }
+
+#on_light:hover,
+#start_prenot:hover{
+    scale: 1.1;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.399);
+}
+#end_prenot:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.399);
+    scale: .9;
+}
+
+#start_prenot:hover{
+    color: var(--ln-green_lime);
+}
+
+#end_prenot:hover{
+    background-color: var(--ln-end_prenot);
+}
+
 #on_light:hover{
     background-color: var(--ln-on_light);
-    scale: 1.2;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.399);
+    filter: brightness(1.5);
 }
 
 /* #endregion hover */
@@ -41,8 +53,8 @@ body{
 :root{
     --ln-green_lime: #00de01;
     --ln-light: #f7f9fb;
-    --ln-on_light: #ffff00;
-    --ln-end_prenot: #
+    --ln-on_light: #f6b455;
+    --ln-end_prenot: #be4140;
 }
 
 .green_lime_text{
