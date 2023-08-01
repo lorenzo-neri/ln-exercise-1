@@ -7,12 +7,12 @@ body{
 
 .container{
     max-width: 1172px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.row{
-    background-color: rgba(0, 0, 0, 0.5);
-    
-}
+/* [class^=col-]{
+    margin: 0 2rem;
+} */
 
 /* #region hover */
 
